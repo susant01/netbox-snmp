@@ -1,7 +1,0 @@
-setup.py
-snmp/__init__.py
-snmp.egg-info/PKG-INFO
-snmp.egg-info/SOURCES.txt
-snmp.egg-info/dependency_links.txt
-snmp.egg-info/not-zip-safe
-snmp.egg-info/top_level.txt
