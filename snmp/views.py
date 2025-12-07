@@ -6,6 +6,7 @@ from .api.serializers import SnmpCommunitySerializer
 class SnmpView(generic.ObjectView):
     queryset= models.SnmpCommunity.objects.all()
 
+
 class SnmpListView(generic.ObjectListView):
     queryset= models.SnmpCommunity.objects.all()
     filterset = SnmpProfileFilterSet

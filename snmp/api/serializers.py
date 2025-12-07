@@ -12,4 +12,5 @@ class SnmpCommunitySerializer(NetBoxModelSerializer):
     class Meta:
             model = SnmpCommunity
             fields = ( 'id','name', 'community', 'comments','tags','custom_fields','created','last_updated','url','display')
-            # Include all fields needed for form submission
+            # Include all fields needed for form submissio:q
+            # L:;
