@@ -9,7 +9,7 @@ __VERSION__ = "0.0.0"
 
 
 class SNMP(PluginConfig):
-    name = "snmp"
+    name = "netbox_snmp"
     verbose_name = "Netbox SNMP community"
     description = (
 		"Add snmp community in device"
@@ -17,10 +17,10 @@ class SNMP(PluginConfig):
     version = __VERSION__
     author = "Susant Shrestha"
     author_email = "susant.shrestha01@gmail.com"
-    base_url = "snmp"
+    base_url = "netbox_snmp"
     required_settings = []
     default_settings = {}
-    api_url_config = "snmp.api.urls"
+    api_url_config = "netbodx_snmp.api.urls"
 # Add this method to ensure models are registered
     def ready(self):
         super().ready()

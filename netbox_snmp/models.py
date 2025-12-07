@@ -21,5 +21,5 @@ class SnmpCommunity(NetBoxModel):
     def __str__(self):
         return self.name
     def get_absolute_url(self):
-        return reverse('plugins:snmp:snmpcommunity', args=[self.pk])
+        return reverse('plugins:netbox-snmp:snmpcommunity', args=[self.pk])
 

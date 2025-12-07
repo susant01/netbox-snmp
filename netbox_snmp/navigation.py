@@ -2,7 +2,7 @@ from netbox.plugins import PluginMenuItem, PluginMenu
 
 menu_items = (
 	PluginMenuItem(
-        link='plugins:snmp:snmpcommunity_list',
+        link='plugins:netbox-snmp:snmpcommunity_list',
         link_text='Community'
     ),
 
